@@ -1,0 +1,6 @@
+*.min.css
+*.min.js
+*.htm
+
+meta.html
+_config.yml

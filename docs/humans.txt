@@ -1,0 +1,32 @@
+  _____        _____        _____
+ /     \      /     \      /     \
+<       >----<       >----<       >
+ \_____/      \_____/      \_____/
+ /     \      /     \      /     \
+<       >----<       >----<       >----.
+ \_____/      \_____/      \_____/      \
+       \      /     \      /     \      /
+        >----<       >----<       >----<
+       /      \_____/      \_____/      \_____
+       \      /     \      /     \      /     \
+        `----<       >----<       >----<       >
+              \_____/      \_____/      \_____/
+                           /     \      /
+                          <       >----'
+                           \_____/
+>
+>  site by https://christianoliff.com
+>
+>  built with https://jekyllrb.com
+>
+>  hosted on https://pages.github.com
+>
+>  ssl/cdm by https://cloudflare.com
+>
+>  css framework https://getbootstrap.com
+>
+>  IE9 Bootstrap polyfill: https://github.com/coliff/bootstrap-ie8
+>
+>  sticky table header from: https://mkoryak.github.io/floatThead/
+>
+>  :-)

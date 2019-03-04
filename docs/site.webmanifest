@@ -1,0 +1,19 @@
+{
+  "name": "caniuse.email",
+  "start_url": "/?utm_source=a2hs",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#bb00bb"
+}

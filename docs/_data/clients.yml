@@ -1,0 +1,69 @@
+- name: Gmail
+  wikipedia: "https://en.wikipedia.org/wiki/Gmail"
+  description: gmail
+  platform: webmail
+  type: webmail
+  marketshare: "27%"
+  css-background-color: compatible-yes
+  css-background-image: compatible-yes
+  css-background-position: compatible-yes
+
+- name: Outlook.com
+  type: webmail
+  wikipedia: "https://en.wikipedia.org/"
+  description: "ios an macOS mail apps (ipad,iphone,desktop apps)"
+  platform: webmail
+  marketshare: "2%"
+  css-background-color: compatible-yes
+  css-background-image: compatible-no
+  css-background-position: compatible-yes
+
+- name: Android 4.x
+  type: GMail App
+  wikipedia: "https://en.wikipedia.org/"
+  description: ""
+  marketshare: "2%"
+  css-background-color: compatible-yes
+  css-background-image: compatible-yes
+  css-background-position: compatible-yes
+
+- name: Android 5.x
+  type: Mail App
+  wikipedia: "https://en.wikipedia.org/"
+  description: ""
+  marketshare: "49%"
+  css-background-color: compatible-yes
+  css-background-image: compatible-no
+  css-background-position: compatible-yes
+
+- name: Apple Mail
+  type: macOS 10.13
+  wikipedia: "https://en.wikipedia.org/"
+  description: "ios an macOS mail apps (ipad,iphone,desktop apps)"
+  marketshare: ""
+
+- name: Oulook
+  type: 2007/10/13
+  wikipedia: "https://en.wikipedia.org/"
+  description: ""
+  marketshare: "9%"
+
+- name: iOS 12
+  type: Mail App
+  wikipedia: "https://en.wikipedia.org/"
+  description: "ios an macOS mail apps (ipad,iphone,desktop apps)"
+  marketshare: "37%"
+
+- name: Yahoo! Mail
+  wikipedia: "https://en.wikipedia.org/wiki/Yahoo!_Mail"
+  description: ""
+  platform: webmail
+  type: Webmail
+  marketshare: "7%"
+
+- name: Thunderbird
+  wikipedia: "https://en.wikipedia.org/wiki/Mozilla_Thunderbird"
+  description: ""
+  platform: desktop
+  type: "60.1.0"
+  marketshare: "1%"

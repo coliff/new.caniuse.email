@@ -1,0 +1,18 @@
+# Folders to ignore
+node_modules/*
+_site/*
+docs/_site/*
+docs/.sass-cache/*
+
+# OS or Editor folders
+._*
+.cache
+.DS_Store
+Thumbs.db
+
+# Files
+package-lock.json
+Gemfile.lock
+npm-debug.log
+docs/assets/css/custom.min.css
+*.icloud

@@ -1,0 +1,48 @@
+# Site Settings
+locale                   : "en"
+title                    : caniuse.email
+description              : Compatibility tables for CSS support in HTML emails
+baseurl                  : /
+url                      : https://caniuse.email
+
+# Outputting
+timezone                 : Asia/Tokyo
+
+# Google Analytics
+google_analytics         : UA-88031592-1
+
+sass:
+    style: compressed
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - config
+  - Gemfile
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - README
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      sitemap: false
+  - scope:
+      path: "assets/"
+    values:
+      sitemap: false

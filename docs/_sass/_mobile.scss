@@ -1,0 +1,114 @@
+/** MOBILE **/
+@media only screen and (max-width: 998px) {
+  .table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  .table {
+    width: 320px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0;
+  }
+  .border-right {
+    border: 0 !important;
+  }
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  th {
+    display: none;
+    min-width: 100%;
+  }
+  td {
+    position: relative;
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    max-width: 200px;
+  }
+  td:first-of-type:not {
+    padding-left: 42% !important;
+  }
+  td:first-of-type {
+    min-width: 100%;
+  }
+  td:before {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 200px !important;
+    padding-right: 10px;
+    white-space: nowrap;
+    color: #444;
+    text-indent: 7px;
+  }
+  td:nth-of-type(1):before {
+    content: "";
+  }
+  td:nth-of-type(2):before {
+    content: "Gmail Webmail";
+    border-left: 0;
+  }
+  td:nth-of-type(3):before {
+    content: "Outlook.com";
+    border-left: 0;
+  }
+  td:nth-of-type(4):before {
+    content: "Android 4.x Gmail App";
+    border-left: 0;
+  }
+  td:nth-of-type(5):before {
+    content: "Android 5.x Mail App";
+    border-left: 0;
+  }
+  td:nth-of-type(6):before {
+    content: "Apple Mail";
+    border-left: 0;
+  }
+  td:nth-of-type(7):before {
+    content: "Outlook 2007/10/13";
+    border-left: 0;
+  }
+  td:nth-of-type(8):before {
+    content: "iOS 12 Mail App";
+    border-left: 0;
+  }
+  td:nth-of-type(9):before {
+    content: "Yahoo! Mail Webmail";
+    border-left: 0;
+  }
+  td:nth-of-type(10):before {
+    content: "Thunderbird";
+    border-left: 0;
+  }
+  td:not(:first-child) {
+    padding-left: 82% !important;
+    text-indent: 9px;
+  }
+  tr,
+  tr:hover {
+    background: #fff !important;
+  }
+  td:first-child {
+    background: #eee;
+    text-indent: 6px;
+  }
+  .section-header {
+    width: 100%;
+    max-width: 712px;
+  }
+  .section-header td {
+    width: 100%;
+    padding-left: 0 !important;
+    max-width: 712px;
+    background: #ccc !important;
+    text-indent: 9px;
+  }
+}

@@ -14,7 +14,7 @@
               <small class="text-muted"
                 >{{ client.type }}
                 <img
-                  src="/img/info-circle-regular.svg"
+                  src="{{ '/assets/img/info-circle-regular.svg' | relative_url }}"
                   class="hidden"
                   alt="info"
                   height="14"
@@ -47,7 +47,7 @@
                 rel="noopener"
               >
                 <img
-                  src="/img/info-circle-regular.svg"
+                  src="{{ '/assets/img/info-circle-regular.svg' | relative_url }}"
                   class="mb-1"
                   alt="info"
                   height="14"
@@ -61,7 +61,7 @@
               <div class="{{ client.compatible }}">
                 {% if client.note == "yes" %}
                 <img
-                  src="/img/info-circle-regular.svg"
+                  src="{{ '/assets/img/info-circle-regular.svg' | relative_url }}"
                   class="ml-5 mb-1"
                   alt="info"
                   height="14"

@@ -2,5 +2,6 @@
 *.min.js
 *.htm
 
+main.html
 meta.html
 _config.yml

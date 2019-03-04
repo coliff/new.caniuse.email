@@ -53,47 +53,6 @@ td:last-of-type {
   border-right: 1px solid #eee !important;
 }
 
-div.no {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 19px;
-  min-height: 19px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 16px 16px;
-  margin-top: 2px;
-  color: #eee;
-  background-image: url(/assets/img/times.svg);
-}
-div.yes {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 19px;
-  min-height: 19px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 16px 16px;
-  margin-top: 2px;
-  color: #117744;
-  fill: #117744;
-  background-image: url(/assets/img/check-circle.svg);
-}
-div.partial {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 19px;
-  min-height: 19px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 16px 16px;
-  margin-top: 2px;
-  color: orange;
-  fill: orange;
-  background-image: url(/img/check-circle.svg);
-}
 small {
   opacity: 0.5;
 }

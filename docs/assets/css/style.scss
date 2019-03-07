@@ -17,7 +17,7 @@ div.no {
   background-size: 16px 16px;
   margin-top: 2px;
   color: #eee;
-  background-image: url(../assets/img/times.svg);
+  background-image: url(../img/times.svg);
 }
 div.yes {
   text-align: center;
@@ -31,7 +31,7 @@ div.yes {
   margin-top: 2px;
   color: #117744;
   fill: #117744;
-  background-image: url(../assets/img/check-circle.svg);
+  background-image: url(../img/check-circle.svg);
 }
 div.partial {
   text-align: center;
@@ -47,5 +47,5 @@ div.partial {
   fill: orange !important;
   filter: saturate(80%);
   opacity: 0.8;
-  background-image: url(../assets/img/check-circle.svg);
+  background-image: url(../img/check-circle.svg);
 }

@@ -1,7 +1,7 @@
 *.min.css
 *.min.js
 *.htm
-
+analytics.html
 main.html
 meta.html
 _config.yml

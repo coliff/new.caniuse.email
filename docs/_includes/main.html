@@ -58,12 +58,13 @@
             </td>
             {% for client in feature.clients %}
             <td>
-              <div class="{{ client.compatible }}">
+              <div class="{{ client.compatible }}" title="{{ client.note-text }}">
                 {% if client.note == "yes" %}
                 <img
                   src="{{ '/assets/img/info-circle-regular.svg' | relative_url }}"
-                  class="ml-5 mb-1"
-                  alt="info"
+                  class="invisible"
+                  alt="{{ client.note-text }}"
+                  title="{{ client.note-text }}"
                   height="14"
                   width="14"
                 />

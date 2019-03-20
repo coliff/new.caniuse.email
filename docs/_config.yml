@@ -5,9 +5,6 @@ description              : Compatibility tables for CSS support in HTML emails
 baseurl                  : /
 url                      : https://caniuse.email
 
-# Outputting
-timezone                 : Asia/Tokyo
-
 # Google Analytics
 google_analytics         : UA-88031592-1
 

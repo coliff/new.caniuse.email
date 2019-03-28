@@ -23,6 +23,21 @@
         >
       </div>
     </div>
+    <script>
+      !(function(o, n) {
+        var t = function() {
+          var n = o(":target"),
+            t = 100;
+          n.length > 0 &&
+            o("html, body")
+              .stop()
+              .animate({ scrollTop: n.offset().top - t }, 200);
+        };
+        o(n).on("hashchange load", function() {
+          t();
+        });
+      })(jQuery, window);
+    </script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </div>
 </div>

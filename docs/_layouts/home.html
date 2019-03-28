@@ -1,6 +1,7 @@
 ---
 title: "Can I Use in HTML Emails"
 description: "Compatibility tables for CSS support in HTML emails."
+homepage: "yes"
 ---
 
 <!DOCTYPE html>
@@ -14,8 +15,9 @@ description: "Compatibility tables for CSS support in HTML emails."
       {% include header.html %}
     </header>
 
-    <main>
-      {% include main.html %}
+    <main role="main">
+      {% if page.title == "Can I Use in HTML Emails" %} {% include main.html %}
+      {% endif %}
     </main>
 
     <footer class="bg-dark">

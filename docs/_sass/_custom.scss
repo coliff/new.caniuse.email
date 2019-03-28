@@ -45,6 +45,9 @@ table {
   overflow: hidden;
   border-right: 1px solid #eee !important;
 }
+main {
+  min-height: 64vh;
+}
 td {
   border-left: 1px solid #eee;
   color: #555;

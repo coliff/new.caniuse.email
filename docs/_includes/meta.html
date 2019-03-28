@@ -5,7 +5,6 @@
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <!--[if IE]>
       <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
@@ -15,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css">
     <![endif]-->
 <link rel="icon" href="favicon.ico">
+{% if page.title == "Can I Use in HTML Emails" %}
 <meta name="description" content="{{ page.description }}">
 <link rel="manifest" href="site.webmanifest">
 <link rel="canonical" href="https://caniuse.email">
@@ -25,3 +25,4 @@
 <meta name="theme-color" content="#bb00bb">
 <meta name="twitter:creator" content="@christianoliff">
 <meta name="last-modified" content="{{ site.time | date: "%Y-%m-%d" }}">
+{% endif %}

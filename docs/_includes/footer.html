@@ -24,17 +24,16 @@
       </div>
     </div>
     <script>
-      !(function(o, n) {
-        var t = function() {
-          var n = o(":target"),
-            t = 100;
-          n.length > 0 &&
-            o("html, body")
-              .stop()
-              .animate({ scrollTop: n.offset().top - t }, 200);
+      (function($, window) {
+        var adjustAnchor = function() {
+          var $anchor = $(":target"),
+            fixedElementHeight = 100;
+          if ($anchor.length > 0) {
+            window.scrollTo(0, $anchor.offset().top - fixedElementHeight);
+          }
         };
-        o(n).on("hashchange load", function() {
-          t();
+        $(window).on("hashchange load", function() {
+          adjustAnchor();
         });
       })(jQuery, window);
     </script>

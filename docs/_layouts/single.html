@@ -2,38 +2,37 @@
 title: "Can I Use in HTML Emails"
 description: "Compatibility tables for CSS support in HTML emails."
 ---
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    {% include meta.html %}
+  </head>
 
-<head>
-  {% include meta.html %}
-</head>
+  <body class="bg-light">
+    <header>
+      {% include header.html %}
+    </header>
 
-<body class="bg-light">
-  <header>
-    {% include header.html %}
-  </header>
+    <main>
+      {% include main.html %}
+    </main>
 
-  <main>
-    {% include main.html %}
-  </main>
+    <footer class="footer text-muted">
+      {% include footer.html %}
+    </footer>
 
-  <footer class="footer text-muted">
-    {% include footer.html %}
-  </footer>
-
-  {% if site.google_analytics and jekyll.environment == 'production' %} {%
+    {% if site.google_analytics and jekyll.environment == 'production' %} {%
     include analytics.html %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/UpUp/1.1.0/upup.min.js"></script>
-  <script>
-    UpUp.start({
-      "cache-version": "v1.3",
-      "content-url": "index.html",
-      assets: ["js/floaThead.min.js", "css/style.css"],
-      "service-worker-url": "/upup.sw.min.js"
-    });
-  </script>
-  {% endif %}
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/UpUp/1.1.0/upup.min.js"></script>
+    <script>
+      UpUp.start({
+        "cache-version": "v0.11.3",
+        "content-url": "index.html",
+        assets: ["js/floaThead.min.js", "css/style.css"],
+        "service-worker-url": "/upup.sw.min.js"
+      });
+    </script>
+    {% endif %}
+  </body>
 </html>

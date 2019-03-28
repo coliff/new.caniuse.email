@@ -110,6 +110,7 @@
           compatible: "yes"
 
 - title: "CSS Box and Border Properties"
+  id: "css-box-border-properties"
   feature:
     - title: "border"
       href: "https://developer.mozilla.org/en-US/docs/Web/CSS/border"
@@ -284,6 +285,7 @@
           compatible: "yes"
 
 - title: "CSS Media Queries"
+  id: "css-media-queries"
   feature:
     - title: "@media"
       href: https://developer.mozilla.org/en-US/docs/Web/CSS/@media

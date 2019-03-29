@@ -1,7 +1,7 @@
 - name: Gmail
   wikipedia: "https://en.wikipedia.org/wiki/Gmail"
   description: gmail
-  platform: webmail
+  platform: Webmail
   type: webmail
   marketshare: "27%"
   css-background-color: compatible-yes
@@ -9,17 +9,17 @@
   css-background-position: compatible-yes
 
 - name: Outlook.com
-  type: webmail
+  type: Webmail
   wikipedia: "https://en.wikipedia.org/"
   description: "ios an macOS mail apps (ipad,iphone,desktop apps)"
-  platform: webmail
+  platform: Webmail
   marketshare: "2%"
   css-background-color: compatible-yes
   css-background-image: compatible-no
   css-background-position: compatible-yes
 
-- name: Android 4.x
-  type: GMail App
+- name: Android 6.x
+  type: Gmail App
   wikipedia: "https://en.wikipedia.org/"
   description: ""
   marketshare: "2%"
@@ -39,7 +39,7 @@
 - name: Apple Mail
   type: macOS 10.13
   wikipedia: "https://en.wikipedia.org/"
-  description: "ios an macOS mail apps (ipad,iphone,desktop apps)"
+  description: "macOS mail app"
   marketshare: ""
 
 - name: Oulook
@@ -51,7 +51,7 @@
 - name: iOS 12
   type: Mail App
   wikipedia: "https://en.wikipedia.org/"
-  description: "ios an macOS mail apps (ipad,iphone,desktop apps)"
+  description: "iOS mail app (iPad,iPhone)"
   marketshare: "37%"
 
 - name: Yahoo! Mail

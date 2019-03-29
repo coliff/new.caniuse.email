@@ -59,6 +59,11 @@ h5 a {
   opacity: 0.6 !important;
 }
 
+// this hides gap at the top of the table
+#css-background-properties {
+  display: none;
+}
+
 .opacity-50,
 small {
   opacity: 0.5;

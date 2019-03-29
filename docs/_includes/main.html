@@ -29,11 +29,13 @@
         <tbody class="table-bordered">
           {% for category in site.data.features %}
           <tr id="{{ category.id }}">
-            <td colspan="10"></td>
+            <td colspan="10" class="bg-white pb-4 mt-1"></td>
           </tr>
           <tr class="section-header">
             <td colspan="10">
-              <h5>{{ category.title }} <a href="#{{ category.id }}" class="mb-0 small">#</a></h5>
+              <h5 class="mt-1">
+                {{ category.title }} <a href="#{{ category.id }}" class="mb-0 small">#</a>
+              </h5>
             </td>
           </tr>
 
